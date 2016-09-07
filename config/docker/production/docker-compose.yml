@@ -3,7 +3,7 @@ services:
   angular_moviemasher:
     image: moviemasher/angular-moviemasher:latest
     ports:
-      - "8080:80"
+      - "9000:80"
   moviemasher_rb:
     image: moviemasher/moviemasher.rb:latest
     volumes_from:
